@@ -1,0 +1,106 @@
+Theory :-   (@abhishek2x)
+            (ref - geeksforgeeks)
+
+---------------------------NAMESPACES--------------------------------------------
+
+Namespaces allow us to group named entities that otherwise would have global scope 
+into narrower scopes, giving them namespace scope. This allows organizing the elements of 
+programs into different logical scopes referred to by names.
+
+Namespace is a feature added in C++ and not present in C.
+
+A namespace is a declarative region that provides a scope to the identifiers 
+(names of the types, function, variables etc) inside it.
+
+Multiple namespace blocks with the same name are allowed. All declarations within 
+those blocks are declared in the named scope.
+
+---------------------------INLINE FUNCTIONS---------------------------------------
+
+Inline function is one of the important feature of C++. 
+Remember, inlining is only a request to the compiler, not a command. 
+Function call overhead doesn’t occur.
+Compiler can ignore the request for inlining. 
+
+Compiler may not perform inlining in such circumstances like:
+1) If a function contains a loop. (for, while, do-while)
+2) If a function contains static variables.
+3) If a function is recursive.
+4) If a function return type is other than void, and the return statement doesn’t exist in function body.
+5) If a function contains switch or goto statement.
+
+---------------------------UNIFIED MODELLING LANGUAGE (UML)-----------------------
+
+Unified Modeling Language (UML) is a general purpose modelling language. 
+The main aim of UML is to define a standard way to visualize the way 
+a system has been designed. 
+It is quite similar to blueprints used in other fields of engineering.
+An object diagram in the Unified Modeling Language (UML), is a 
+diagram that shows a complete or partial view of the structure of a modeled system at a specific time.
+
+---------------------------EXCEPTION HANDLING-------------------------------------
+
+One of the advantages of C++ over C is Exception Handling. 
+Exceptions are run-time anomalies or abnormal conditions that a program encounters during its execution. 
+There are two types of exceptions: a)Synchronous, b)Asynchronous
+(Ex:which are beyond the program’s control, Disc failure etc). 
+C++ provides following specialized keywords for this purpose.
+
+try: represents a block of code that can throw an exception.
+
+catch: represents a block of code that is executed when a particular exception is thrown.
+
+throw: Used to throw an exception. Also used to list the exceptions that a function throws, 
+but doesn’t handle itself.
+
+
+---------------------------OBJECT-ORIENTED PROGRAMMING-------------------------------------
+
+Object-oriented programming (OOP) is nothing but that which allows the writing of programs with 
+the help of certain classes and real-time objects. We can say that this approach is very close to 
+the real-world and its applications because the state and behaviour of these classes and objects
+are almost the same as real-world objects.
+
+Data Abstraction –
+Abstraction refers to the act of representing important and special features without including the
+background details or explanation about that feature. Data abstraction simplifies database design.
+
+Encapsulation –
+Encapsulation is one of the fundamental concepts in object-oriented programming (OOP). 
+It describes the idea of wrapping data and the methods that work on data within one unit, e.g., a class in Java. 
+This concept is often used to hide the internal state representation of an object from the outside.
+
+Inheritance –
+Inheritance is the ability of one class to inherit capabilities or properties of another class, called the parent class. 
+When we write a class, we inherit properties from other classes. So when we create a class, we do not need to write 
+all the properties and functions again and again, as these can be inherited from another class which possesses it. 
+Inheritance allows the user to reuse the code whenever possible and reduce its redundancy. 
+
+Polymorphism –
+Polymorphism is the ability of data to be processed in more than one form. 
+It allows the performance of the same task in various ways. It consists of method overloading and method overriding, 
+i.e., writing the method once and performing a number of tasks using the same method name.
+
+Advantages of OOPs –
+
+    It models the real world very well.
+
+    With OOP, programs are easy to understand and maintain.
+
+    OOP offers code reusability. Already created classes can be reused without having to write them again.
+    
+    OOP facilitates the quick development of programs where parallel development of classes is possible.
+
+    With OOP, programs are easier to test, manage and debug.
+
+Disadvantages of OOP –
+
+    With OOP, classes sometimes tend be over-generalised.
+    
+    The relations among classes become superficial at times.
+    
+    The OOP design is tricky and requires appropriate knowledge. 
+    Also, one needs to do proper planning and design for OOP programming.
+    
+    To program with OOP, the programmer needs proper skills such as that of design, 
+    programming and thinking in terms of objects and classes etc.
